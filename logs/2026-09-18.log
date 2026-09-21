@@ -1,0 +1,451 @@
+22:10:26  [INFO    ]  AUTOMATSUO.main — ============================================================
+22:10:26  [INFO    ]  AUTOMATSUO.main —   AUTOMATSUO V3 — Sistema de Impressão de Etiquetas BAAN
+22:10:26  [INFO    ]  AUTOMATSUO.main — ============================================================
+22:10:28  [INFO    ]  AUTOMATSUO.automacao — pyautogui/pygetwindow OK — modo REAL ativo
+22:11:13  [INFO    ]  AUTOMATSUO.excel — Excel: Pasta2.xlsx | 230 linhas | 8 colunas
+22:11:13  [DEBUG   ]  AUTOMATSUO.excel — Colunas detectadas: caixa=0 dti=3 proc=1
+22:11:13  [INFO    ]  AUTOMATSUO.excel — Grupos: 87 caixas | 129 linhas ignoradas
+22:11:13  [SUCESSO ]  AUTOMATSUO.excel — Processado: 87 caixas (73 simples, 14 múltiplas)
+22:11:13  [INFO    ]  AUTOMATSUO.estado — Fila definida: 87 caixas
+22:11:16  [INFO    ]  AUTOMATSUO.automacao — Motor iniciado | teste=False | real=True
+22:11:16  [INFO    ]  AUTOMATSUO.automacao — [FILA] A001KB67770401 → 2 DTIs → MÚLTIPLA
+22:11:16  [INFO    ]  AUTOMATSUO.automacao — [MÚLTIPLA] A001KB67770401 → 2 DTIs: ['538950', '539023']
+22:11:17  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Rec.Específico = Sim (abre janela DTI)
+22:11:17  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tkcpdo400s000 : Selecionar Recebimentos Específicos [550]'
+22:11:18  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] DTI[1]=538950
+22:11:18  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI[1] → próximo campo
+22:11:19  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] DTI[2]=539023
+22:11:19  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI[2] → próximo campo
+22:11:19  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] campo vazio → botão Ok
+22:11:20  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] confirmar Ok (janela DTI)
+22:11:20  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] Continue
+22:11:21  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tdinvs0001.o : Imprimir Etiquetas de Entrada'
+22:11:21  [DEBUG   ]  AUTOMATSUO.automacao — [KEY:LEFT] popup: Não → Sim
+22:11:22  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] popup → confirmar Sim
+22:11:22  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Aguardando: A001KB67770401
+22:11:24  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Pronto — foco de volta em Rec.Específico.
+22:11:25  [SUCESSO ]  AUTOMATSUO.automacao — [MÚLTIPLA] OK — A001KB67770401
+22:11:25  [SUCESSO ]  AUTOMATSUO.automacao — ✔ A001KB67770401
+22:11:25  [INFO    ]  AUTOMATSUO.automacao — [FILA] A002KB67770401 → 1 DTI → SIMPLES
+22:11:25  [INFO    ]  AUTOMATSUO.automacao — [SIMPLES] A002KB67770401 → DTI=538949
+22:11:26  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Rec.Específico = Não
+22:11:26  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] Rec.Específico(Não) → Cópias
+22:11:26  [DEBUG   ]  AUTOMATSUO.automacao — [SELECT] Ctrl+A
+22:11:26  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Cópias = 1
+22:11:27  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] Cópias → No Recebimento (De)
+22:11:27  [DEBUG   ]  AUTOMATSUO.automacao — [SELECT] Ctrl+A
+22:11:27  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] No Recebimento De = 538949
+22:11:27  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI De → DTI Até (auto-preenchido)
+22:11:28  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI Até → Continue
+22:11:28  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] Continue
+22:11:29  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tdinvs0001.o : Imprimir Etiquetas de Entrada'
+22:11:29  [DEBUG   ]  AUTOMATSUO.automacao — [KEY:LEFT] popup: Não → Sim
+22:11:29  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] popup → confirmar Sim
+22:11:29  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Aguardando: 538949
+22:11:31  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Pronto — foco de volta em Rec.Específico.
+22:11:32  [SUCESSO ]  AUTOMATSUO.automacao — [SIMPLES] OK — DTI=538949
+22:11:32  [SUCESSO ]  AUTOMATSUO.automacao — ✔ A002KB67770401
+22:11:32  [INFO    ]  AUTOMATSUO.automacao — [FILA] A003KB67770401 → 2 DTIs → MÚLTIPLA
+22:11:32  [INFO    ]  AUTOMATSUO.automacao — [MÚLTIPLA] A003KB67770401 → 2 DTIs: ['538954', '539017']
+22:11:33  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Rec.Específico = Sim (abre janela DTI)
+22:11:34  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tkcpdo400s000 : Selecionar Recebimentos Específicos [550]'
+22:11:34  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] DTI[1]=538954
+22:11:34  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI[1] → próximo campo
+22:11:35  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] DTI[2]=539017
+22:11:35  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI[2] → próximo campo
+22:11:35  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] campo vazio → botão Ok
+22:11:36  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] confirmar Ok (janela DTI)
+22:11:37  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] Continue
+22:11:37  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tdinvs0001.o : Imprimir Etiquetas de Entrada'
+22:11:38  [DEBUG   ]  AUTOMATSUO.automacao — [KEY:LEFT] popup: Não → Sim
+22:11:38  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] popup → confirmar Sim
+22:11:38  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Aguardando: A003KB67770401
+22:11:41  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Pronto — foco de volta em Rec.Específico.
+22:11:41  [SUCESSO ]  AUTOMATSUO.automacao — [MÚLTIPLA] OK — A003KB67770401
+22:11:41  [SUCESSO ]  AUTOMATSUO.automacao — ✔ A003KB67770401
+22:11:41  [INFO    ]  AUTOMATSUO.automacao — [FILA] A004KB67770401 → 1 DTI → SIMPLES
+22:11:41  [INFO    ]  AUTOMATSUO.automacao — [SIMPLES] A004KB67770401 → DTI=538938
+22:11:42  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Rec.Específico = Não
+22:11:42  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] Rec.Específico(Não) → Cópias
+22:11:42  [DEBUG   ]  AUTOMATSUO.automacao — [SELECT] Ctrl+A
+22:11:43  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Cópias = 1
+22:11:43  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] Cópias → No Recebimento (De)
+22:11:43  [DEBUG   ]  AUTOMATSUO.automacao — [SELECT] Ctrl+A
+22:11:43  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] No Recebimento De = 538938
+22:11:44  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI De → DTI Até (auto-preenchido)
+22:11:44  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI Até → Continue
+22:11:44  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] Continue
+22:11:45  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tdinvs0001.o : Imprimir Etiquetas de Entrada'
+22:11:45  [DEBUG   ]  AUTOMATSUO.automacao — [KEY:LEFT] popup: Não → Sim
+22:11:45  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] popup → confirmar Sim
+22:11:45  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Aguardando: 538938
+22:11:47  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Pronto — foco de volta em Rec.Específico.
+22:11:48  [SUCESSO ]  AUTOMATSUO.automacao — [SIMPLES] OK — DTI=538938
+22:11:48  [SUCESSO ]  AUTOMATSUO.automacao — ✔ A004KB67770401
+22:11:48  [INFO    ]  AUTOMATSUO.automacao — [FILA] A005KB67770401 → 2 DTIs → MÚLTIPLA
+22:11:48  [INFO    ]  AUTOMATSUO.automacao — [MÚLTIPLA] A005KB67770401 → 2 DTIs: ['538951', '539026']
+22:11:49  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Rec.Específico = Sim (abre janela DTI)
+22:11:50  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tkcpdo400s000 : Selecionar Recebimentos Específicos [550]'
+22:11:50  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] DTI[1]=538951
+22:11:51  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI[1] → próximo campo
+22:11:51  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] DTI[2]=539026
+22:11:51  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI[2] → próximo campo
+22:11:52  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] campo vazio → botão Ok
+22:11:52  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] confirmar Ok (janela DTI)
+22:11:53  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] Continue
+22:11:53  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tdinvs0001.o : Imprimir Etiquetas de Entrada'
+22:11:54  [DEBUG   ]  AUTOMATSUO.automacao — [KEY:LEFT] popup: Não → Sim
+22:11:54  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] popup → confirmar Sim
+22:11:54  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Aguardando: A005KB67770401
+22:11:57  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Pronto — foco de volta em Rec.Específico.
+22:11:57  [SUCESSO ]  AUTOMATSUO.automacao — [MÚLTIPLA] OK — A005KB67770401
+22:11:57  [SUCESSO ]  AUTOMATSUO.automacao — ✔ A005KB67770401
+22:11:58  [INFO    ]  AUTOMATSUO.automacao — [FILA] A006KB67770401 → 2 DTIs → MÚLTIPLA
+22:11:58  [INFO    ]  AUTOMATSUO.automacao — [MÚLTIPLA] A006KB67770401 → 2 DTIs: ['538945', '539022']
+22:11:58  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Rec.Específico = Sim (abre janela DTI)
+22:11:59  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tkcpdo400s000 : Selecionar Recebimentos Específicos [550]'
+22:12:00  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] DTI[1]=538945
+22:12:00  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI[1] → próximo campo
+22:12:00  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] DTI[2]=539022
+22:12:01  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI[2] → próximo campo
+22:12:01  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] campo vazio → botão Ok
+22:12:01  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] confirmar Ok (janela DTI)
+22:12:02  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] Continue
+22:12:03  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tdinvs0001.o : Imprimir Etiquetas de Entrada'
+22:12:03  [DEBUG   ]  AUTOMATSUO.automacao — [KEY:LEFT] popup: Não → Sim
+22:12:03  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] popup → confirmar Sim
+22:12:03  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Aguardando: A006KB67770401
+22:12:06  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Pronto — foco de volta em Rec.Específico.
+22:12:06  [SUCESSO ]  AUTOMATSUO.automacao — [MÚLTIPLA] OK — A006KB67770401
+22:12:06  [SUCESSO ]  AUTOMATSUO.automacao — ✔ A006KB67770401
+22:12:07  [INFO    ]  AUTOMATSUO.automacao — [FILA] A007KB67770401 → 1 DTI → SIMPLES
+22:12:07  [INFO    ]  AUTOMATSUO.automacao — [SIMPLES] A007KB67770401 → DTI=538940
+22:12:07  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Rec.Específico = Não
+22:12:08  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] Rec.Específico(Não) → Cópias
+22:12:08  [DEBUG   ]  AUTOMATSUO.automacao — [SELECT] Ctrl+A
+22:12:08  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Cópias = 1
+22:12:08  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] Cópias → No Recebimento (De)
+22:12:08  [DEBUG   ]  AUTOMATSUO.automacao — [SELECT] Ctrl+A
+22:12:09  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] No Recebimento De = 538940
+22:12:09  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI De → DTI Até (auto-preenchido)
+22:12:09  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI Até → Continue
+22:12:10  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] Continue
+22:12:10  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tdinvs0001.o : Imprimir Etiquetas de Entrada'
+22:12:11  [DEBUG   ]  AUTOMATSUO.automacao — [KEY:LEFT] popup: Não → Sim
+22:12:11  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] popup → confirmar Sim
+22:12:11  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Aguardando: 538940
+22:12:13  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Pronto — foco de volta em Rec.Específico.
+22:12:13  [SUCESSO ]  AUTOMATSUO.automacao — [SIMPLES] OK — DTI=538940
+22:12:13  [SUCESSO ]  AUTOMATSUO.automacao — ✔ A007KB67770401
+22:12:14  [INFO    ]  AUTOMATSUO.automacao — [FILA] A008KB67770401 → 2 DTIs → MÚLTIPLA
+22:12:14  [INFO    ]  AUTOMATSUO.automacao — [MÚLTIPLA] A008KB67770401 → 2 DTIs: ['538930', '539018']
+22:12:14  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Rec.Específico = Sim (abre janela DTI)
+22:12:15  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tkcpdo400s000 : Selecionar Recebimentos Específicos [550]'
+22:12:16  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] DTI[1]=538930
+22:12:16  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI[1] → próximo campo
+22:12:17  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] DTI[2]=539018
+22:12:17  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI[2] → próximo campo
+22:12:17  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] campo vazio → botão Ok
+22:12:17  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] confirmar Ok (janela DTI)
+22:12:18  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] Continue
+22:12:19  [INFO    ]  AUTOMATSUO.automacao — PARAR solicitado.
+22:12:19  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tdinvs0001.o : Imprimir Etiquetas de Entrada'
+22:12:19  [INFO    ]  AUTOMATSUO.automacao — Interrompido em #8 A008KB67770401.
+22:38:21  [INFO    ]  AUTOMATSUO.automacao — Motor iniciado | teste=False | real=True
+22:38:21  [INFO    ]  AUTOMATSUO.automacao — [FILA] A008KB67770401 → 2 DTIs → MÚLTIPLA
+22:38:21  [INFO    ]  AUTOMATSUO.automacao — [MÚLTIPLA] A008KB67770401 → 2 DTIs: ['538930', '539018']
+22:38:21  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Rec.Específico = Sim (abre janela DTI)
+22:38:22  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tkcpdo400s000 : Selecionar Recebimentos Específicos [550]'
+22:38:23  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] DTI[1]=538930
+22:38:23  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI[1] → próximo campo
+22:38:23  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] DTI[2]=539018
+22:38:24  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI[2] → próximo campo
+22:38:24  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] campo vazio → botão Ok
+22:38:24  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] confirmar Ok (janela DTI)
+22:38:25  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] Continue
+22:38:26  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tdinvs0001.o : Imprimir Etiquetas de Entrada'
+22:38:26  [DEBUG   ]  AUTOMATSUO.automacao — [KEY:LEFT] popup: Não → Sim
+22:38:26  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] popup → confirmar Sim
+22:38:26  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Aguardando: A008KB67770401
+22:38:29  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Pronto — foco de volta em Rec.Específico.
+22:38:29  [SUCESSO ]  AUTOMATSUO.automacao — [MÚLTIPLA] OK — A008KB67770401
+22:38:29  [SUCESSO ]  AUTOMATSUO.automacao — ✔ A008KB67770401
+22:38:30  [INFO    ]  AUTOMATSUO.automacao — [FILA] A009KB67770401 → 2 DTIs → MÚLTIPLA
+22:38:30  [INFO    ]  AUTOMATSUO.automacao — [MÚLTIPLA] A009KB67770401 → 2 DTIs: ['538939', '539019']
+22:38:30  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Rec.Específico = Sim (abre janela DTI)
+22:38:31  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tkcpdo400s000 : Selecionar Recebimentos Específicos [550]'
+22:38:32  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] DTI[1]=538939
+22:38:32  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI[1] → próximo campo
+22:38:33  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] DTI[2]=539019
+22:38:33  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI[2] → próximo campo
+22:38:33  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] campo vazio → botão Ok
+22:38:33  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] confirmar Ok (janela DTI)
+22:38:34  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] Continue
+22:38:35  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tdinvs0001.o : Imprimir Etiquetas de Entrada'
+22:38:35  [DEBUG   ]  AUTOMATSUO.automacao — [KEY:LEFT] popup: Não → Sim
+22:38:36  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] popup → confirmar Sim
+22:38:36  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Aguardando: A009KB67770401
+22:38:38  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Pronto — foco de volta em Rec.Específico.
+22:38:39  [SUCESSO ]  AUTOMATSUO.automacao — [MÚLTIPLA] OK — A009KB67770401
+22:38:39  [SUCESSO ]  AUTOMATSUO.automacao — ✔ A009KB67770401
+22:38:39  [INFO    ]  AUTOMATSUO.automacao — [FILA] A010KB67770401 → 1 DTI → SIMPLES
+22:38:39  [INFO    ]  AUTOMATSUO.automacao — [SIMPLES] A010KB67770401 → DTI=538960
+22:38:40  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Rec.Específico = Não
+22:38:40  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] Rec.Específico(Não) → Cópias
+22:38:40  [DEBUG   ]  AUTOMATSUO.automacao — [SELECT] Ctrl+A
+22:38:40  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Cópias = 1
+22:38:41  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] Cópias → No Recebimento (De)
+22:38:41  [DEBUG   ]  AUTOMATSUO.automacao — [SELECT] Ctrl+A
+22:38:41  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] No Recebimento De = 538960
+22:38:41  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI De → DTI Até (auto-preenchido)
+22:38:42  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI Até → Continue
+22:38:42  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] Continue
+22:38:43  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tdinvs0001.o : Imprimir Etiquetas de Entrada'
+22:38:43  [DEBUG   ]  AUTOMATSUO.automacao — [KEY:LEFT] popup: Não → Sim
+22:38:43  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] popup → confirmar Sim
+22:38:43  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Aguardando: 538960
+22:38:45  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Pronto — foco de volta em Rec.Específico.
+22:38:45  [SUCESSO ]  AUTOMATSUO.automacao — [SIMPLES] OK — DTI=538960
+22:38:45  [SUCESSO ]  AUTOMATSUO.automacao — ✔ A010KB67770401
+22:38:46  [INFO    ]  AUTOMATSUO.automacao — [FILA] A011KB67770401 → 1 DTI → SIMPLES
+22:38:46  [INFO    ]  AUTOMATSUO.automacao — [SIMPLES] A011KB67770401 → DTI=538942
+22:38:47  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Rec.Específico = Não
+22:38:47  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] Rec.Específico(Não) → Cópias
+22:38:47  [DEBUG   ]  AUTOMATSUO.automacao — [SELECT] Ctrl+A
+22:38:47  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Cópias = 1
+22:38:47  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] Cópias → No Recebimento (De)
+22:38:48  [DEBUG   ]  AUTOMATSUO.automacao — [SELECT] Ctrl+A
+22:38:48  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] No Recebimento De = 538942
+22:38:48  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI De → DTI Até (auto-preenchido)
+22:38:48  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI Até → Continue
+22:38:49  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] Continue
+22:38:49  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tdinvs0001.o : Imprimir Etiquetas de Entrada'
+22:38:50  [DEBUG   ]  AUTOMATSUO.automacao — [KEY:LEFT] popup: Não → Sim
+22:38:50  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] popup → confirmar Sim
+22:38:50  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Aguardando: 538942
+22:38:52  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Pronto — foco de volta em Rec.Específico.
+22:38:52  [SUCESSO ]  AUTOMATSUO.automacao — [SIMPLES] OK — DTI=538942
+22:38:52  [SUCESSO ]  AUTOMATSUO.automacao — ✔ A011KB67770401
+22:38:53  [INFO    ]  AUTOMATSUO.automacao — [FILA] A012KB67770401 → 1 DTI → SIMPLES
+22:38:53  [INFO    ]  AUTOMATSUO.automacao — [SIMPLES] A012KB67770401 → DTI=538941
+22:38:54  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Rec.Específico = Não
+22:38:54  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] Rec.Específico(Não) → Cópias
+22:38:54  [DEBUG   ]  AUTOMATSUO.automacao — [SELECT] Ctrl+A
+22:38:54  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Cópias = 1
+22:38:54  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] Cópias → No Recebimento (De)
+22:38:55  [DEBUG   ]  AUTOMATSUO.automacao — [SELECT] Ctrl+A
+22:38:55  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] No Recebimento De = 538941
+22:38:55  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI De → DTI Até (auto-preenchido)
+22:38:55  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI Até → Continue
+22:38:56  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] Continue
+22:38:56  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tdinvs0001.o : Imprimir Etiquetas de Entrada'
+22:38:57  [DEBUG   ]  AUTOMATSUO.automacao — [KEY:LEFT] popup: Não → Sim
+22:38:57  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] popup → confirmar Sim
+22:38:57  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Aguardando: 538941
+22:38:59  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Pronto — foco de volta em Rec.Específico.
+22:38:59  [SUCESSO ]  AUTOMATSUO.automacao — [SIMPLES] OK — DTI=538941
+22:38:59  [SUCESSO ]  AUTOMATSUO.automacao — ✔ A012KB67770401
+22:39:00  [INFO    ]  AUTOMATSUO.automacao — [FILA] A013KB67770401 → 2 DTIs → MÚLTIPLA
+22:39:00  [INFO    ]  AUTOMATSUO.automacao — [MÚLTIPLA] A013KB67770401 → 2 DTIs: ['538971', '539020']
+22:39:00  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Rec.Específico = Sim (abre janela DTI)
+22:39:01  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tkcpdo400s000 : Selecionar Recebimentos Específicos [550]'
+22:39:02  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] DTI[1]=538971
+22:39:02  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI[1] → próximo campo
+22:39:03  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] DTI[2]=539020
+22:39:03  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI[2] → próximo campo
+22:39:03  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] campo vazio → botão Ok
+22:39:03  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] confirmar Ok (janela DTI)
+22:39:04  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] Continue
+22:39:05  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tdinvs0001.o : Imprimir Etiquetas de Entrada'
+22:39:05  [DEBUG   ]  AUTOMATSUO.automacao — [KEY:LEFT] popup: Não → Sim
+22:39:06  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] popup → confirmar Sim
+22:39:06  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Aguardando: A013KB67770401
+22:39:08  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Pronto — foco de volta em Rec.Específico.
+22:39:09  [SUCESSO ]  AUTOMATSUO.automacao — [MÚLTIPLA] OK — A013KB67770401
+22:39:09  [SUCESSO ]  AUTOMATSUO.automacao — ✔ A013KB67770401
+22:39:09  [INFO    ]  AUTOMATSUO.automacao — [FILA] A014KB67770401 → 1 DTI → SIMPLES
+22:39:09  [INFO    ]  AUTOMATSUO.automacao — [SIMPLES] A014KB67770401 → DTI=538957
+22:39:10  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Rec.Específico = Não
+22:39:10  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] Rec.Específico(Não) → Cópias
+22:39:10  [DEBUG   ]  AUTOMATSUO.automacao — [SELECT] Ctrl+A
+22:39:10  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Cópias = 1
+22:39:11  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] Cópias → No Recebimento (De)
+22:39:11  [DEBUG   ]  AUTOMATSUO.automacao — [SELECT] Ctrl+A
+22:39:11  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] No Recebimento De = 538957
+22:39:11  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI De → DTI Até (auto-preenchido)
+22:39:12  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI Até → Continue
+22:39:12  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] Continue
+22:39:13  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tdinvs0001.o : Imprimir Etiquetas de Entrada'
+22:39:13  [DEBUG   ]  AUTOMATSUO.automacao — [KEY:LEFT] popup: Não → Sim
+22:39:13  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] popup → confirmar Sim
+22:39:13  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Aguardando: 538957
+22:39:25  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Pronto — foco de volta em Rec.Específico.
+22:39:25  [SUCESSO ]  AUTOMATSUO.automacao — [SIMPLES] OK — DTI=538957
+22:39:25  [SUCESSO ]  AUTOMATSUO.automacao — ✔ A014KB67770401
+22:39:26  [INFO    ]  AUTOMATSUO.automacao — [FILA] A015KB67770401 → 1 DTI → SIMPLES
+22:39:26  [INFO    ]  AUTOMATSUO.automacao — [SIMPLES] A015KB67770401 → DTI=538958
+22:39:26  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Rec.Específico = Não
+22:39:27  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] Rec.Específico(Não) → Cópias
+22:39:27  [DEBUG   ]  AUTOMATSUO.automacao — [SELECT] Ctrl+A
+22:39:27  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Cópias = 1
+22:39:27  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] Cópias → No Recebimento (De)
+22:39:27  [DEBUG   ]  AUTOMATSUO.automacao — [SELECT] Ctrl+A
+22:39:28  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] No Recebimento De = 538958
+22:39:28  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI De → DTI Até (auto-preenchido)
+22:39:28  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI Até → Continue
+22:39:28  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] Continue
+22:39:29  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tdinvs0001.o : Imprimir Etiquetas de Entrada'
+22:39:29  [DEBUG   ]  AUTOMATSUO.automacao — [KEY:LEFT] popup: Não → Sim
+22:39:30  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] popup → confirmar Sim
+22:39:30  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Aguardando: 538958
+22:39:32  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Pronto — foco de volta em Rec.Específico.
+22:39:32  [SUCESSO ]  AUTOMATSUO.automacao — [SIMPLES] OK — DTI=538958
+22:39:32  [SUCESSO ]  AUTOMATSUO.automacao — ✔ A015KB67770401
+22:39:33  [INFO    ]  AUTOMATSUO.automacao — [FILA] A016KB67770401 → 1 DTI → SIMPLES
+22:39:33  [INFO    ]  AUTOMATSUO.automacao — [SIMPLES] A016KB67770401 → DTI=538943
+22:39:33  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Rec.Específico = Não
+22:39:33  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] Rec.Específico(Não) → Cópias
+22:39:34  [DEBUG   ]  AUTOMATSUO.automacao — [SELECT] Ctrl+A
+22:39:34  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Cópias = 1
+22:39:34  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] Cópias → No Recebimento (De)
+22:39:34  [DEBUG   ]  AUTOMATSUO.automacao — [SELECT] Ctrl+A
+22:39:35  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] No Recebimento De = 538943
+22:39:35  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI De → DTI Até (auto-preenchido)
+22:39:35  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI Até → Continue
+22:39:35  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] Continue
+22:39:36  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tdinvs0001.o : Imprimir Etiquetas de Entrada'
+22:39:36  [DEBUG   ]  AUTOMATSUO.automacao — [KEY:LEFT] popup: Não → Sim
+22:39:37  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] popup → confirmar Sim
+22:39:37  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Aguardando: 538943
+22:39:39  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Pronto — foco de volta em Rec.Específico.
+22:39:39  [SUCESSO ]  AUTOMATSUO.automacao — [SIMPLES] OK — DTI=538943
+22:39:39  [SUCESSO ]  AUTOMATSUO.automacao — ✔ A016KB67770401
+22:39:40  [INFO    ]  AUTOMATSUO.automacao — [FILA] A017KB67770401 → 2 DTIs → MÚLTIPLA
+22:39:40  [INFO    ]  AUTOMATSUO.automacao — [MÚLTIPLA] A017KB67770401 → 2 DTIs: ['538953', '539008']
+22:39:40  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Rec.Específico = Sim (abre janela DTI)
+22:39:41  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tkcpdo400s000 : Selecionar Recebimentos Específicos [550]'
+22:39:42  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] DTI[1]=538953
+22:39:42  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI[1] → próximo campo
+22:39:42  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] DTI[2]=539008
+22:39:43  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI[2] → próximo campo
+22:39:43  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] campo vazio → botão Ok
+22:39:43  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] confirmar Ok (janela DTI)
+22:39:44  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] Continue
+22:39:57  [WARNING ]  AUTOMATSUO.automacao — [JANELA] Timeout: 'tdinvs0001.o'
+22:39:57  [ERROR   ]  AUTOMATSUO.automacao — Erro navegação [A017KB67770401]: Popup de confirmação não apareceu após inserção de DTIs
+22:39:57  [INFO    ]  AUTOMATSUO.automacao — [FILA] A018KB67770401 → 2 DTIs → MÚLTIPLA
+22:39:57  [INFO    ]  AUTOMATSUO.automacao — [MÚLTIPLA] A018KB67770401 → 2 DTIs: ['538944', '539021']
+22:39:58  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Rec.Específico = Sim (abre janela DTI)
+22:40:02  [INFO    ]  AUTOMATSUO.automacao — PARAR solicitado.
+22:40:02  [INFO    ]  AUTOMATSUO.automacao — Interrompido em #18 A018KB67770401.
+22:40:03  [INFO    ]  AUTOMATSUO.automacao — Motor iniciado | teste=False | real=True
+22:40:03  [INFO    ]  AUTOMATSUO.automacao — [FILA] A018KB67770401 → 2 DTIs → MÚLTIPLA
+22:40:03  [INFO    ]  AUTOMATSUO.automacao — [MÚLTIPLA] A018KB67770401 → 2 DTIs: ['538944', '539021']
+22:40:04  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Rec.Específico = Sim (abre janela DTI)
+22:40:11  [INFO    ]  AUTOMATSUO.automacao — PARAR solicitado.
+22:40:11  [INFO    ]  AUTOMATSUO.automacao — Interrompido em #18 A018KB67770401.
+22:40:12  [INFO    ]  AUTOMATSUO.automacao — Motor iniciado | teste=False | real=True
+22:40:12  [INFO    ]  AUTOMATSUO.automacao — [FILA] A018KB67770401 → 2 DTIs → MÚLTIPLA
+22:40:12  [INFO    ]  AUTOMATSUO.automacao — [MÚLTIPLA] A018KB67770401 → 2 DTIs: ['538944', '539021']
+22:40:12  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Rec.Específico = Sim (abre janela DTI)
+22:40:17  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tkcpdo400s000 : Selecionar Recebimentos Específicos [550]'
+22:40:17  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] DTI[1]=538944
+22:40:18  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI[1] → próximo campo
+22:40:18  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] DTI[2]=539021
+22:40:18  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI[2] → próximo campo
+22:40:19  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] campo vazio → botão Ok
+22:40:19  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] confirmar Ok (janela DTI)
+22:40:20  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] Continue
+22:40:20  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tdinvs0001.o : Imprimir Etiquetas de Entrada'
+22:40:21  [DEBUG   ]  AUTOMATSUO.automacao — [KEY:LEFT] popup: Não → Sim
+22:40:21  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] popup → confirmar Sim
+22:40:21  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Aguardando: A018KB67770401
+22:40:24  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Pronto — foco de volta em Rec.Específico.
+22:40:24  [SUCESSO ]  AUTOMATSUO.automacao — [MÚLTIPLA] OK — A018KB67770401
+22:40:24  [SUCESSO ]  AUTOMATSUO.automacao — ✔ A018KB67770401
+22:40:25  [INFO    ]  AUTOMATSUO.automacao — [FILA] A019KB67770401 → 2 DTIs → MÚLTIPLA
+22:40:25  [INFO    ]  AUTOMATSUO.automacao — [MÚLTIPLA] A019KB67770401 → 2 DTIs: ['538948', '539025']
+22:40:25  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Rec.Específico = Sim (abre janela DTI)
+22:40:26  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tkcpdo400s000 : Selecionar Recebimentos Específicos [550]'
+22:40:27  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] DTI[1]=538948
+22:40:27  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI[1] → próximo campo
+22:40:27  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] DTI[2]=539025
+22:40:28  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI[2] → próximo campo
+22:40:28  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] campo vazio → botão Ok
+22:40:28  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] confirmar Ok (janela DTI)
+22:40:29  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] Continue
+22:40:30  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tdinvs0001.o : Imprimir Etiquetas de Entrada'
+22:40:30  [DEBUG   ]  AUTOMATSUO.automacao — [KEY:LEFT] popup: Não → Sim
+22:40:30  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] popup → confirmar Sim
+22:40:30  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Aguardando: A019KB67770401
+22:40:33  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Pronto — foco de volta em Rec.Específico.
+22:40:33  [SUCESSO ]  AUTOMATSUO.automacao — [MÚLTIPLA] OK — A019KB67770401
+22:40:33  [SUCESSO ]  AUTOMATSUO.automacao — ✔ A019KB67770401
+22:40:34  [INFO    ]  AUTOMATSUO.automacao — [FILA] A020KB67770401 → 2 DTIs → MÚLTIPLA
+22:40:34  [INFO    ]  AUTOMATSUO.automacao — [MÚLTIPLA] A020KB67770401 → 2 DTIs: ['538928', '539000']
+22:40:34  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Rec.Específico = Sim (abre janela DTI)
+22:40:35  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tkcpdo400s000 : Selecionar Recebimentos Específicos [550]'
+22:40:36  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] DTI[1]=538928
+22:40:36  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI[1] → próximo campo
+22:40:37  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] DTI[2]=539000
+22:40:37  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI[2] → próximo campo
+22:40:37  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] campo vazio → botão Ok
+22:40:37  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] confirmar Ok (janela DTI)
+22:40:38  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] Continue
+22:40:39  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tdinvs0001.o : Imprimir Etiquetas de Entrada'
+22:40:39  [DEBUG   ]  AUTOMATSUO.automacao — [KEY:LEFT] popup: Não → Sim
+22:40:40  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] popup → confirmar Sim
+22:40:40  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Aguardando: A020KB67770401
+22:40:42  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Pronto — foco de volta em Rec.Específico.
+22:40:42  [SUCESSO ]  AUTOMATSUO.automacao — [MÚLTIPLA] OK — A020KB67770401
+22:40:42  [SUCESSO ]  AUTOMATSUO.automacao — ✔ A020KB67770401
+22:40:43  [INFO    ]  AUTOMATSUO.automacao — [FILA] A021KB67770401 → 1 DTI → SIMPLES
+22:40:43  [INFO    ]  AUTOMATSUO.automacao — [SIMPLES] A021KB67770401 → DTI=538947
+22:40:44  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Rec.Específico = Não
+22:40:44  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] Rec.Específico(Não) → Cópias
+22:40:44  [DEBUG   ]  AUTOMATSUO.automacao — [SELECT] Ctrl+A
+22:40:44  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] Cópias = 1
+22:40:44  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] Cópias → No Recebimento (De)
+22:40:45  [DEBUG   ]  AUTOMATSUO.automacao — [SELECT] Ctrl+A
+22:40:45  [DEBUG   ]  AUTOMATSUO.automacao — [TYPE] No Recebimento De = 538947
+22:40:45  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI De → DTI Até (auto-preenchido)
+22:40:45  [DEBUG   ]  AUTOMATSUO.automacao — [TAB] DTI Até → Continue
+22:40:46  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] Continue
+22:40:46  [DEBUG   ]  AUTOMATSUO.automacao — [JANELA] Encontrada: 'tdinvs0001.o : Imprimir Etiquetas de Entrada'
+22:40:47  [DEBUG   ]  AUTOMATSUO.automacao — [KEY:LEFT] popup: Não → Sim
+22:40:47  [DEBUG   ]  AUTOMATSUO.automacao — [ENTER] popup → confirmar Sim
+22:40:47  [DEBUG   ]  AUTOMATSUO.automacao — [IMPRESSÃO] Aguardando: 538947
+22:40:48  [INFO    ]  AUTOMATSUO.automacao — PARAR solicitado.
+22:40:48  [INFO    ]  AUTOMATSUO.automacao — Interrompido em #21 A021KB67770401.
+22:47:38  [INFO    ]  AUTOMATSUO.main — AUTOMATSUO V3 encerrado.
+23:02:55  [INFO    ]  AUTOMATSUO.main — ============================================================
+23:02:55  [INFO    ]  AUTOMATSUO.main —   AUTOMATSUO V3 — Sistema de Impressão de Etiquetas BAAN
+23:02:55  [INFO    ]  AUTOMATSUO.main — ============================================================
+23:02:55  [WARNING ]  AUTOMATSUO.main — Opcional ausente: pyautogui — modo simulação ativo.
+23:02:55  [WARNING ]  AUTOMATSUO.main — Opcional ausente: pygetwindow — modo simulação ativo.
+23:02:55  [ERROR   ]  AUTOMATSUO.main — Dependências obrigatórias ausentes: pandas, openpyxl
+23:02:55  [ERROR   ]  AUTOMATSUO.main — Execute:  pip install pandas openpyxl
+23:03:03  [INFO    ]  AUTOMATSUO.main — ============================================================
+23:03:03  [INFO    ]  AUTOMATSUO.main —   AUTOMATSUO V3 — Sistema de Impressão de Etiquetas BAAN
+23:03:03  [INFO    ]  AUTOMATSUO.main — ============================================================
+23:03:03  [WARNING ]  AUTOMATSUO.main — Opcional ausente: pyautogui — modo simulação ativo.
+23:03:03  [WARNING ]  AUTOMATSUO.main — Opcional ausente: pygetwindow — modo simulação ativo.
+23:03:03  [ERROR   ]  AUTOMATSUO.main — Dependências obrigatórias ausentes: pandas, openpyxl
+23:03:03  [ERROR   ]  AUTOMATSUO.main — Execute:  pip install pandas openpyxl
+23:44:53  [INFO    ]  AUTOMATSUO.main — ============================================================
+23:44:53  [INFO    ]  AUTOMATSUO.main —   AUTOMATSUO V3 — Sistema de Impressão de Etiquetas BAAN
+23:44:53  [INFO    ]  AUTOMATSUO.main — ============================================================
+23:44:53  [WARNING ]  AUTOMATSUO.main — Opcional ausente: pyautogui — modo simulação ativo.
+23:44:53  [WARNING ]  AUTOMATSUO.main — Opcional ausente: pygetwindow — modo simulação ativo.
+23:44:53  [ERROR   ]  AUTOMATSUO.main — Dependências obrigatórias ausentes: pandas, openpyxl
+23:44:53  [ERROR   ]  AUTOMATSUO.main — Execute:  pip install pandas openpyxl
+23:45:14  [INFO    ]  AUTOMATSUO.main — ============================================================
+23:45:14  [INFO    ]  AUTOMATSUO.main —   AUTOMATSUO V3 — Sistema de Impressão de Etiquetas BAAN
+23:45:14  [INFO    ]  AUTOMATSUO.main — ============================================================
+23:45:16  [INFO    ]  AUTOMATSUO.automacao — pyautogui/pygetwindow OK — modo REAL ativo
+23:46:04  [INFO    ]  AUTOMATSUO.excel — Excel: Pasta2.xlsx | 230 linhas | 8 colunas
+23:46:04  [DEBUG   ]  AUTOMATSUO.excel — Colunas detectadas: caixa=0 dti=3 proc=1
+23:46:04  [INFO    ]  AUTOMATSUO.excel — Grupos: 101 caixas | 129 linhas ignoradas
+23:46:04  [SUCESSO ]  AUTOMATSUO.excel — Processado: 101 caixas (101 simples, 0 múltiplas)
+23:46:04  [INFO    ]  AUTOMATSUO.estado — Fila definida: 101 caixas
+00:19:10  [INFO    ]  AUTOMATSUO.main — AUTOMATSUO V3 encerrado.
