@@ -10,8 +10,11 @@ Sistema de automação inteligente (RPA) para processamento e emissão automatiz
 
 ## 📸 Demonstração da Interface
 
-| Painel Principal (Fila de Impressão) | Simulador ERP (Baan Fake) |
-| :-<img width="400" alt="Captura de tela 2026-09-21 145014" src="https://github.com/user-attachments/assets/65c5b180-8b70-40fa-ac1f-5f11984c6b02" /><img width="400" alt="Captura de tela 2026-09-21 145055" src="https://github.com/user-attachments/assets/f4bb94bf-52d3-45c2-888c-5bf1dffc9b33" />
+### Painel Principal (Fila de Impressão)
+<img width="600" alt="Captura de tela 2026-09-21 145014" src="https://github.com/user-attachments/assets/65c5b180-8b70-40fa-ac1f-5f11984c6b02" />
+
+### Simulador ERP (Baan Fake)
+<img width="600" alt="Captura de tela 2026-09-21 145055" src="https://github.com/user-attachments/assets/f4bb94bf-52d3-45c2-888c-5bf1dffc9b33" />
 
 ---
 
