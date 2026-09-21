@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="automatsuo.png" alt="Automatsuo" width="300"/>
-</p>
-
 # 🤖 Automatsuo (AutoERP-PrintLabel)
 
 Sistema de automação inteligente (RPA) para processamento e emissão automatizada de etiquetas de entrada em ERPs industriais (compatível com interfaces Baan / Infor LN).
